@@ -60,9 +60,48 @@
         <li>Tuck into a warm crusty bun and add your favourite toppings.</li>
       </ol>
     </section>
+
+    <section>
+      <h2 id="reviews"> Reviews </h2>
+        <form action="/reviews" method="post">
+          <label for="user"> Name </label>
+          <input id="user" type="text" name="name" value="">
+
+          <br>
+
+          <label for="rating"> Rating </label>
+            1<input type="radio" name="rating" value="1" checked>
+            2<input type="radio" name="rating" value="2">
+            3<input type="radio" name="rating" value="3">
+            4<input type="radio" name="rating" value="4">
+            5<input type="radio" name="rating" value="5">
+
+          <br>
+
+          <label for="cooking_expertise"> Cooking Expertise </label>
+            <select id="cooking_experise" name="cooking_experise">
+              <option value="Select Cooking Expertise" disabled selected >--Select Cooking Experise--</option>
+              <option value="Sometimes Cook"> Sometimes Cook </option>
+              <option value="Cook Everyday">Cook Everyday</option>
+              <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+              <option value="Professional Chef">Professional Chef</option>
+            </select>
+
+            <br>
+
+          <label> <p>Review</p>
+            <textarea name="review" rows="8" cols="80">
+
+            </textarea>
+          </label>
+
+        </form>
+
+    </section>
+
      <footer>
        <p>
-         Orignal Recipe by <a href="http://www.food.com/recipe/the-perfect-burger-92021"> CountryLady </a> 
+         Orignal Recipe by <a href="http://www.food.com/recipe/the-perfect-burger-92021"> CountryLady </a>
        </p>
   </footer>
   </body>
