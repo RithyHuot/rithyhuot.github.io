@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F4A460;
+}
+
+h1{
+  font-size: 38px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+header > img {
+  width: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ingredients-list{
+  list-style: square inside;
+}
+.direction{
+  list-style: lower-roman;
+}
+
+.image {
+  border: 2px solid;
+  border-radius: 25px;
+}
