@@ -20,14 +20,31 @@ ul li a {
   color: inherit;
 }
 
-.ingredients-list{
+.ingredients-list {
   list-style: square inside;
 }
-.direction{
+.direction {
   list-style: lower-roman;
+  background-color: #D3D3D3;
 }
 
 .image {
   border: 2px solid;
   border-radius: 25px;
+}
+
+input:last-child {
+  background-color: gold;
+}
+
+h2 + .user_review {
+  border-top: 1px solid black;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(../assets/stars.png);
+    vertical-align: bottom;
 }

@@ -6,9 +6,9 @@
     <title>Rithy Huot Recipe</title>
     <meta name="description" content="This is a simple burger recipe">
 
-    <link rel="stylesheet" href="css_reset.css" type="text/css">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script type="text/javascript" src="external_javascript_example.js"/>
+    <link rel="stylesheet" href="assets/css_customer_reset.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/style.css" type="text/css"/>
+    <script type="text/javascript" src="assets/external_javascript_example.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -81,8 +81,8 @@
     <section id="reviews">
       <h2> Reviews </h2>
         <form id="review-form" action="/reviews" method="post">
-          <label for="user"> Name </label>
-          <input id="user" type="text" name="name" value="">
+          <label for="name"> Name </label>
+          <input id="name" type="text" name="name">
 
           <br>
 
@@ -95,9 +95,10 @@
 
           <br>
 
-          <label for="cooking_expertise"> Cooking Expertise </label>
-            <select id="cooking_experise" name="cooking_experise">
-              <option value="Select Cooking Expertise" disabled selected >--Select Cooking Experise--</option>
+          <label for="expertise"> Cooking Expertise </label>
+
+            <select id="experise" name="experise">
+              <option value="Select Cooking Expertise" disabled='true' selected='true' >--Select Cooking Experise--</option>
               <option value="Sometimes Cook"> Sometimes Cook </option>
               <option value="Cook Everyday">Cook Everyday</option>
               <option value="Cooking is a Hobby">Cooking is a Hobby</option>
@@ -106,10 +107,8 @@
 
             <br>
 
-          <label> <p>Review</p>
-            <textarea name="review" rows="8" cols="80">
-
-            </textarea>
+          <label> Review
+            <textarea name="review" rows="8" cols="80"></textarea>
           </label>
           <br>
           <br>
