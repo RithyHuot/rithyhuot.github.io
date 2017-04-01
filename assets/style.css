@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #F4A460;
+  margin: 0 auto;
+  width: 900px;
 }
 
 h1{
@@ -47,4 +49,55 @@ input[type="radio"] {
     height: 27px;
     background-image: url(../assets/stars.png);
     vertical-align: bottom;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside {
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.ingredients-list li {
+  margin: 15px 0px;
+}
+
+input[type="text"], select {
+  display: block;
+  width: 175px;
+}
+
+select {
+  margin: 10px 0;
+  width: 180px;
+}
+
+textarea {
+  width: 350px;
+}
+
+label {
+  display: block;
 }

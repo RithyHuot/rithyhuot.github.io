@@ -24,14 +24,29 @@
   <body>
     <header>
       <img src="https://p5.zdassets.com/hc/settings_assets/949671/200252358/ytySguzPxy92CMwTwD4fxg-logo-emblem-red.png" alt="AppAcademy" style="width:5%;height:2%;" >
+      <nav>
+        <ul>
+          <li><a href="#description">Description</a></li>
+          <li><a href="#ingredients">Ingredients</a></li>
+          <li><a href="#directions">Directions</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#description">Description</a></li>
-        <li><a href="#ingredients">Ingredients</a></li>
-        <li><a href="#directions">Directions</a></li>
+
+    <aside>
+      <h2 id="ingredients"> Ingredients </h2>
+      <ul class='ingredients-list'>
+        <li><b>1</b> egg</li>
+        <li><b>1</b> teaspoon mustard</li>
+        <li><b>1</b> teaspoon Worecstershire sauce</li>
+        <li><b>1</b> small onion</li>
+        <li><b>1</b> small onion, finely grated</li>
+        <li><b>1</b> clove garlic, minced</li>
+        <li><b><sup>1</sup>&frasl;<sub>2</sub></b> teaspoon salt</li>
+        <li><b><sup>1</sup>&frasl;<sub>2</sub></b> teaspoon pepper</li>
+        <li><b>1</b> lb medium ground beef</li>
       </ul>
-    </nav>
+    </aside>
 
     <section>
       <h1> Big Burger </h1>
@@ -42,26 +57,12 @@
           <a href="https://en.wikipedia.org/wiki/Hamburger"> Hamburger History </a>
         </figcaption>
       </figure>
+
       <h2 id="description"> Description</h2>
       <p>
         A <a href="https://en.wikipedia.org/wiki/Hamburger"> hamburger </a> or burger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun.
-
       </p>
 
-      <aside>
-      <h2 id="ingredients"> Ingredients </h2>
-        <ul class='ingredients-list'>
-          <li><b>1</b> egg</li>
-          <li><b>1</b> teaspoon mustard</li>
-          <li><b>1</b> teaspoon Worecstershire sauce</li>
-          <li><b>1</b> small onion</li>
-          <li><b>1</b> small onion, finely grated</li>
-          <li><b>1</b> clove garlic, minced</li>
-          <li><b><sup>1</sup>&frasl;<sub>2</sub></b> teaspoon salt</li>
-          <li><b><sup>1</sup>&frasl;<sub>2</sub></b> teaspoon pepper</li>
-          <li><b>1</b> lb medium ground beef</li>
-        </ul>
-      </aside>
       <h2 id="directions"> Directions </h2>
       <ol class='direction'>
         <li>Lightly oil grill and heat BBQ to medium.</li>
@@ -76,7 +77,6 @@
         <li>Don't abuse your burgers by pressing with a spatula, pricking with a fork or turning frequently as precious juices will be lost!</li>
         <li>Tuck into a warm crusty bun and add your favourite toppings.</li>
       </ol>
-    </section>
 
     <section id="reviews">
       <h2> Reviews </h2>
@@ -84,19 +84,14 @@
           <label for="name"> Name </label>
           <input id="name" type="text" name="name">
 
-          <br>
-
-          <label for="rating"> Rating </label>
             1<input type="radio" name="rating" value="1" checked>
             2<input type="radio" name="rating" value="2">
             3<input type="radio" name="rating" value="3">
             4<input type="radio" name="rating" value="4">
             5<input type="radio" name="rating" value="5">
 
-          <br>
-
-          <label for="expertise"> Cooking Expertise </label>
-
+            <br>
+            <br>
             <select id="experise" name="experise">
               <option value="Select Cooking Expertise" disabled='true' selected='true' >--Select Cooking Experise--</option>
               <option value="Sometimes Cook"> Sometimes Cook </option>
@@ -107,15 +102,14 @@
 
             <br>
 
-          <label> Review
             <textarea name="review" rows="8" cols="80"></textarea>
-          </label>
           <br>
           <br>
           <input type="submit" value="Submit Review" >
         </form>
 
     </section>
+  </section>
 
      <footer>
        <p>
