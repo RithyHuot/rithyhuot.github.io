@@ -744,3 +744,17 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+.skills {
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+
+.contact-me {
+  text-align: center;
+  color: White;
+}
+
+.certification-list {
+  text-align: center;
+}
