@@ -1,3 +1,3 @@
 # My portfolio website
 
-[Live Link](http://www.rithyhuot.com)
+[Live Link](https://www.rithyhuot.com)
