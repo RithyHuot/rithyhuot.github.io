@@ -777,3 +777,12 @@ body {
  border: 2px solid #efefef ;
  margin-bottom: 30px;
 }
+
+@media (max-width: 767px){
+  .certification-logo {
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
